@@ -181,15 +181,15 @@ a.btn-nav:hover {
     padding: 40px;
     border-radius: 20px;
     flex: 1; /* Membuat ketiga kartu memiliki lebar yang sama */
-    transition: transforma 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .features-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 
-.features-icon {
+.feature-icon {
     height: 60px;
     margin-bottom: 20px;
 }
